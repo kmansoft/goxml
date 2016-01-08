@@ -294,11 +294,6 @@ func (d *Decoder) Token() (t Token, err error) {
 	return
 }
 
-// Added by kman
-func (d *Decoder) LineNumber() int {
-	return d.line
-}
-
 const xmlURL = "http://www.w3.org/XML/1998/namespace"
 
 // Apply name space translation to name n.
